@@ -1,0 +1,252 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Noto Sans KR', sans-serif; 
+    background: #fff;
+    font-weight: 16px;
+    color: #3a466a;
+    }
+/* banner */
+#visual {
+    position: relative;
+    /* max-width: 1920px; */
+    width: 100%;
+    min-width: 1200px;
+    height: 300px;
+    background-image: url(../images/brand_bg.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+#visual > .visual_text {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+}
+#visual h2 {
+    width: 1200px;
+    line-height: 65px;
+    position: relative;
+    color: #eee;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    /* outline: 1px solid red; */
+    margin-left: 110px;
+    padding-top: 90px;
+}
+#visual p {
+    width: 1200px;
+    position: relative;
+    color: #eee;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 110px;
+    padding-top: 10px;
+    left: 1%;
+}
+
+
+
+/* lnb */
+#lnb {
+    position: relative;
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+}
+#lnb > .lnb {
+    position: absolute;
+}
+#lnb > .lnb > li {
+    float: left;
+    color: #000;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 60px;
+    /* outline: 1px solid red; */
+}
+#lnb > .lnb > li > a {
+    display: block;
+    color: #35302d;
+    font-size: 15px;
+    font-weight: 500;
+}
+#lnb > .lnb > li > a.active {
+    color: #6a5951;
+    border-bottom: 5px solid #6a5951;
+}
+
+.line {
+  width: 100%;
+  min-width: 1200px;
+  border-bottom: 5px solid #eee;
+  margin: 0 auto;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-transform: uppercase;
+    padding: 20px;
+    /* outline: 1px solid red; */
+    text-align: right;
+    font-size: 12px;
+    color: #777;
+}
+
+.breadcrumb a {
+    color: #777;
+}
+
+
+
+
+/* 브랜드스토리 */
+#content1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+#content1 > h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #88461b;
+}
+#content1 > p {
+    color: #777;
+}
+/* 드롭탑 컨셉 */
+#content1 > .droptop {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    background-image: url('../images/pakistan.jpg');
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+#content1 > .droptop > .text > p {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 0 5px #35302d;
+    left: 7%;
+    padding-top: 90px;
+}
+
+/* 파워오퍼 */
+#content1 > .poweroffer {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+#content1 > .poweroffer > img {
+    width: 580px;
+    float: left;
+}
+#content1 > .poweroffer > .poweroffer_text {
+    width: 500px;
+    float: left;
+    margin-left: 40px;
+    color: #35302d;
+}
+#content1 > .poweroffer > .poweroffer_text > p {
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+/* 인테리어 */
+#content1 > .interior {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    /* background: #ccc; */
+    margin-bottom: 40px;
+}
+#content1 > .interior h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #88461b;
+}
+#content1 > .interior p {
+    color: #35302d;
+}
+#content1 > .interior > .factory,
+#content1 > .interior > .modern,
+#content1 > .interior > .vintage {
+    overflow: hidden;
+    position: absolute;
+    margin-bottom: 20px;
+}
+#content1 > .interior > .factory > .text,
+#content1 > .interior > .modern > .text,
+#content1 > .interior > .vintage > .text {
+    float: left;
+    margin-right: 10px;
+}
+#content1 > .interior > .factory > img,
+#content1 > .interior > .modern > img,
+#content1 > .interior > .vintage > img {
+    float: left;
+}
+#content1 > .interior > .factory {
+    top: 5%;
+    right: 5%;
+}
+#content1 > .interior > .modern {
+    top: 35%;
+    right: 30%;
+}
+#content1 > .interior > .vintage {
+    top: 65%;
+    right: 55%;
+}
+
+/* 커피 스토리 */
+#content1 > .coffee {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    background-image: url('../images/coffee.jpg');
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+#content1 > .coffee > .text > p:first-child {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 0 5px #35302d;
+    left: 7%;
+    padding-top: 90px;
+}
+#content1 > .coffee > .text > h2 {
+    position: absolute;
+    left: 7%;
+    color: #fff;
+    padding-top: 200px;
+    font-family: 'Crimson Text', serif;
+    font-size: 36px;
+}
+#content1 > .coffee > .text > p:last-child {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 0 5px #35302d;
+    left: 7%;
+    padding-top: 250px;
+}
+
