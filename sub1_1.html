@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>DROPTOP | DROPTOP 스토리</title>
-    <link rel="stylesheet" href="./css/">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> 
     <link rel="stylesheet" href="./css/header_footer.css">
@@ -16,7 +15,13 @@
   />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+    src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+    integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+    crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
 <body>
@@ -192,35 +197,8 @@
     </div>
 
   <script>
-    // gnb
-    $(function(){
-        $('#gnb > .depth1 > li').hover(
-            function(){
-                $('.depth2').stop().show();
-            },
-            function(){
-                $('.depth2').stop().hide();
-            }
-        )
-    });
-    // lnb(가맹문의, 매장찾기)
-    $(function(){
-        var menu = 0;
-        // $('#lnb > .lnb > li > a').removeClass();
-        // $('#lnb > .lnb > li > a').eq(menu).addClass('active');
-
-        $('#lnb > .lnb > li > a').click(function(){
-            $('#lnb > .lnb > li > a').removeClass();
-            $(this).eq(menu).addClass('active');
-        });
-    })
-
     AOS.init();
   </script>
-
-
-
-
 </body>
 </html>
 

@@ -36,14 +36,15 @@ section#visual {
 }
 .bx-wrapper {border:none;}
 
-/* membership banner */
+/* coffee banner */
 section#membership_banner {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     min-width: 1200px;
     height: 550px;
     background-image: url('../images/925story.jpg');
     margin: 0 auto;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 
 #membership_wrap { 
