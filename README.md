@@ -1,11 +1,8 @@
-# Caffebene-Homepage-renewal
+# Droptop-Homepage-renewal
 
+#수정사항(2020.11.06)
 
-# 홈페이지 기획 및 레이아웃 구성
-<br>전원 참여
-
-# 코드 작성
-index.html - 신은영 작업
-<br>sub1_1.html - 김지현 작업
-<br>sub2_1.html - 이다인 작업
-<br>sub3_2.html - 문성훈 작업
+- 자바스크립트 오류 수정(각 페이지 헤더에 공통 스크립트 cdn 추가)
+- html 문법 오류 수정(파일명 공백 제거)
+- 메인 베너 영역 기본 1200px에서 수평 스크롤 넘어가는 영역 제거
+- 메인 헤더 영역 1200px에서 우측 끝 부분 짤림 현상 해결
